@@ -82,15 +82,30 @@ body::-webkit-scrollbar {
 .horizontal-list li {
     display: inline-block;
     margin: 0px 8px 8px 0px;
+    
+}
+.horizontal-list li a {
+color: rgb(237, 244, 237);
+    background-color: transparent;
+    text-decoration: none;
+    
 }
 
 
 .nav-menu li a {
-    transition: color 0.5s, border-bottom 4s;
+    transition: rgb(147, 150, 151) 0.5s, border-bottom 4s;
+    color: rgb(237, 244, 237);
+        background-color: transparent;
+        text-decoration: none;
 }
 
+/* .nav-menu li a:visited {
+ 
+ /* color:yellow; */
+/* }  */
 .nav-menu li a:hover {
-    color: lightgrey;
+    color: rgb(70, 66, 66);
+text-decoration: none;
     border-bottom: 1px solid black;
 }
 
